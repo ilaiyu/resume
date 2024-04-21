@@ -103,6 +103,7 @@
                   <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li>
                   <li><a href="#services"><i class="flaticon-layers-1"></i>项目经验</a></li>
                   <li><a href="#honor"><i class="iconfont icon-rongyu"></i>荣誉证书</a></li>
+                  <li><a href="#note"><i class="iconfont icon-rongyu"></i>个人笔记</a></li>
                 </ul>
               </header>
 
@@ -407,7 +408,7 @@
                             <h4>上合跨境结算风控平台搭建</h4>
                             <div class="date"> 项目描述：为上合跨境结算系统搭建一套完整易用的风控系统。</div>
                             <div class="text">
-                                <div>技术栈:SpringBoot+drools+vue</div>
+                                <div>技术栈:SpringBoot+drools+vue+nginx+docker+++</div>
                               <ul>
                                 <li>设计前端功能-接口管理-规则集管理-规则管理-变量加工管理-数据源管理等，使业务可从前端页面配置交易所需规则</li>
                                 <li>分析设计风控流程及风控业务规则，包括引用企查查数据、交易数据，评分卡设计等</li>
@@ -418,62 +419,87 @@
                             </div>
                           </div>
                         </div>
+
+                        <!--Timeline Block-->
                         <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4>商城后台管理系统</h4>
-                            <div class="date"> 项目描述：主要用于管理用户，商品，订单，供应商信息应用。</div>
+                          <div class="inner-box"><div class="date"><span>2023.06-2023.12</span></div>
+                            <h4>国投泰康本地化运营平台</h4>
+                            <div class="date"> 项目描述：根据监控要求，信托机构需要按照银保监会统一部署，
+                              信托公司需要自主掌握业务过程中的相关信息
+                              包括覆盖贷前审查、贷中监控、贷后管理、审批数据、账务文件以及贷款合同、身份证件等影像资料，
+                              实现相关业务数据的本地化存储与查询，对相应数据做到安全管控。</div>
                             <div class="text">
-                              <div> 技术栈: vue+elementUI+axios+vuex+webpack</div>
+                              <div>技术栈:SpringBoot+nginx+vue+docker+s3+++</div>
                               <ul>
-                                <li>vue+elementUI+webpack构建开发框架，快速开发标准版后台。</li>
-                                <li>实现了用户管理,权限管理(动态路由),用户管理，优惠券管理，订单管理等主要功能。</li>
-                                <li>开发热点图，运费模板等组件。</li>
-                                <li>二次封装图片上传组件，表格组件结合mixin实现搜索翻页功能等，大幅度减少代码量。</li>
+                                <li>设计前端功能-权限管理体系，查询管理（客户查询，进件申请，授信，额度，黑名单），影像件处理等，</li>
+                                <li>设计高可用部署，安全扫描，漏洞修复</li>
+                                <li>设计批量功能，T+1 SFTP文件扫描下载，分析处理，文件转存S3对象存储</li>
+                                <li>日常项目管理，进度把控与汇报。</li>
+                                <li>带领技术团队高效完成业务模块开发、测试及部署上线。</li>
                               </ul>
                             </div>
                           </div>
                         </div>
+
+                        <!--Timeline Block-->
                         <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4>微信H5商城</h4>
-                            <div class="date">项目描述：配合App分享微信H5商城，用于微信用户快速下单。</div>
+                          <div class="inner-box"><div class="date"><span>2022.08-2023.06</span></div>
+                            <h4>中信银行信用卡中心知识图谱项目实施</h4>
+                            <div class="date"> 项目描述：阿里知识图谱平台-蜘蛛， 在中信银行信用卡中心部署实施</div>
                             <div class="text">
-                              <div>技术栈: vue+elementUI+axios+vuex+webpack</div>
+                              <div>技术栈:arangodb+sofa+s3+docker+eureka+++</div>
                               <ul>
-                                <li>vue+vantUI+webpack开发微信商城。</li>
-                                <li>实现了H5微信授权，微信分享，支付，商品购物车，我的等主要功能。</li>
-                                <li>构建vue+webpack+vantui+sass+rem移动端开发解决方案。</li>
-                                <li>实现了线上环境使用CDN,优化了首屏加载速度,提升用户体验。</li>
+                                <li>框架适配，将阿里蜘蛛平台使用的内部框架切换到行内框架</li>
+                                <li>适配行内架构，接入统一认证中心，流程中心，消息中心，监控中心，注册中心等</li>
+                                <li>后端代码重构以及前端去CDN，仓库部署到行里</li>
+                                <li>阿里基础组件升级,如sofamvc,oneworkflow,</li>
+                                <li>decisionx决策引擎部署</li>
                               </ul>
                             </div>
                           </div>
                         </div>
+
+
+                        <!--Timeline Block-->
                         <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4>nodeJS文章发布系统</h4>
-                            <div class="date">项目描述：CMS文章发布系统，包括前后台开发。</div>
+                          <div class="inner-box"><div class="date"><span>2022.02-2022.07</span></div>
+                            <h4>交通银行信用卡中心可信项目实施</h4>
+                            <div class="date"> 项目描述：针对阿里可信体系，结合行内实际业务和数据情况，
+                              进行一次体系化建设的咨询分析，同时借助行内已落地的蚁盾风控系统中的可信模块，
+                              配合行方大数据平台与数据中的数据处理能力，结合进行咨询与最小范围闭环验证</div>
                             <div class="text">
-                              <div>技术栈: NodeJS+koa2+pm2+vue+elementUI+axios+vuex+webpack</div>
+                              <div>技术栈:sas+蚁盾+</div>
                               <ul>
-                                <li>后端采用 NodeJS+koa2+开发,vue开发管理后台以及H5页面,pm2发布前后端项目。</li>
-                                <li>NodeJS实现接口身份验证JWT认证登录</li>
-                                <li>管理后台实现了用户模块，分类模块，文章模块，搜索等主要功能。H5实现文章分类及文章详情浏览。</li>
+                                <li>可信链路设计</li>
+                                <li>技术方案设计</li>
+                                <li>数据分析，基于行内近一年的交易RMF分析</li>
+                                <li>可信规则部署与数据验证</li>
                               </ul>
                             </div>
                           </div>
                         </div>
+
+
+                        <!--Timeline Block-->
                         <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4> 多个官网项目 </h4>
+                          <div class="inner-box"><div class="date"><span>2019.10-2022.01</span></div>
+                            <h4>长沙银行全行级风控项目实施</h4>
+                            <div class="date"> 项目描述：基于蚂蚁蚁盾决策引擎，接入行里交易反欺诈，申请反欺诈，信贷全流程风控</div>
                             <div class="text">
-                            <div>技术栈:php+TweenMax+jquery+css+animation</div>
+                              <div>技术栈:蚁盾+springboot+f5+dataworks+slb+</div>
                               <ul>
-                                <li><a href="http://www.iplus-sh.com/">IPLUS官网</a>：使用TweenMax动画完成复杂动画需求</li>
-                                <li>碧云文体发展中心:官方新闻发布系统全站开发，负责前端以及后台PHP二次开发PHPCMS新闻发布系统。</li>
+                                <li>全行全渠道反欺诈接入，埋点分析，事件接入及规则分析部署</li>
+                                <li>信贷接入，风控模型分析及部署，外数接入及指标配置加工</li>
+                                <li>风控中台架构及搭建，满足全行反欺诈及信贷交易接入</li>
+                                <li>离线数据开发，dataworks数据分析，blink准实时计算分析</li>
+                                <li>同城灾备方案设计及演练</li>
+                                <li>项目管理等</li>
                               </ul>
                             </div>
                           </div>
                         </div>
+
+
 
                       </div>
                     </div>
@@ -482,55 +508,7 @@
                 </div>
               </div>
               <!-- end item -->
-              <!-- card item -->
-              <div class="card-projects card-item" id="work" >
-                <div class="card-inner">
-                  <h4 class="title">开源项目</h4>
-                  <div class="row">
-                    <div class="services-block col-md-12">
-                      <div class="inner-box">
-                        <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
-                        <h4><a href="https://github.com/ilaiyu/sol-weapp">Sol Weapp <img
-                              src="https://img.shields.io/github/stars/ilaiyu/sol-weapp.svg?style=social" /></a>
-                        </h4>
-                        <div class="text">微信小程序,商城营销组件库。红包雨、大转盘、九宫格翻牌等营销组件，导航栏、筛选页、高度业务化组件。
-                        </div>
-                      </div>
-                    </div>
-                    <div class="services-block col-md-12">
-                      <div class="inner-box">
-                        <div class="icon-box"><span class="icon flaticon-folder"></span></div>
-                        <h4><a href="https://github.com/ilaiyu/vue_canvas_poster">Vue Canvas Poster <img
-                              src="https://img.shields.io/github/stars/ilaiyu/vue_canvas_poster.svg?style=social" /></a>
-                        </h4>
-                        <div class="text">一个通过 css 属性画 canvas 图片的轻量级的 vue 组件 (A lightweight vue components use canvas
-                          draw image by css properties.)</div>
-                      </div>
-                    </div>
-                    <div class="services-block col-md-12">
-                      <div class="inner-box">
-                        <div class="icon-box"><span class="icon flaticon-computer"></span></div>
-                        <h4><a href="https://github.com/ilaiyu/vue-wechat-auth">Vue Wechat Auth <img
-                              src="https://img.shields.io/github/stars/ilaiyu/vue-wechat-auth.svg?style=social" /></a>
-                        </h4>
-                        <div class="text">vue微信网页授权解决方案</div>
-                      </div>
-                    </div>
 
-                    <div class="services-block col-md-12">
-                      <div class="inner-box">
-                        <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
-                        <h4><a href="https://github.com/ilaiyu/weapp-gulp">Weapp Gulp <img
-                              src="https://img.shields.io/github/stars/ilaiyu/weapp-gulp.svg?style=social" /></a>
-                        </h4>
-                        <div class="text">基于 gulp4.0 实现七牛云自动上传+图片压缩+scss+封装 wx.request+实时编译+多环境配置，脚手架开发小程序</div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <!-- end item -->
               <!-- card item -->
               <div class="card-honor card-item" id="honor" >
                 <div class="card-inner">
@@ -544,6 +522,19 @@
                       <li><span class="iconfont icon-rongyu"></span>OceanBase初级开发工程师 <span class="level">通过</span></li>
                       <li><span class="iconfont icon-rongyu"></span>SofaStack产品交付初级工程师 <span class="level">通过</span></li>
                       <li><span class="iconfont icon-rongyu"></span>HarmonyOS应用开发者高级认证 <span class="level">通过</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-honor card-item" id="note" >
+                <div class="card-inner">
+                  <h4 class="title">知识笔记</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><a href="https://blog.laichao.top/">互联网 Java 工程师进阶知识完全扫盲</span></a></li>
                     </ul>
                   </div>
                 </div>
